@@ -20,7 +20,7 @@ body {
 .header {
   width: 100%;
   background: url("../assets/img/header.jpg") center/cover no-repeat;
-  padding: 5rem 0;
+  padding: 2rem 0;
   color: #fff;
 }
 
@@ -29,28 +29,25 @@ body {
   align-items: center;
   gap: 1rem;
 
-  width: 100%;
+  width: 90%;
   max-width: 960px;
   margin: 0 auto;
 }
 
 .logo {
-  width: 150px;
+  width: 80px;
   flex-shrink: 0;
 }
 
 .header-content h1 {
   font-family: 'Libre Baskerville', serif;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
+  color: rgb(99, 18, 18);
+  text-align: center;
 
   /* truques de leveza */
   letter-spacing: 2px;
   transform: scaleX(0.95);
-
-  background: rgba(0, 0, 0, 0.35);
-  padding: 0.4rem 0.8rem;
-  border-radius: 6px;
-  margin: 0 auto;
 }
 
 
