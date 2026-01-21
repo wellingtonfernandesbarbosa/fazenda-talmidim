@@ -22,6 +22,19 @@ body {
   background: url("../assets/img/header.jpg") center/cover no-repeat;
   padding: 2rem 0;
   color: #fff;
+  position: relative;
+}
+
+.header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(1px);
+  pointer-events: none;
 }
 
 .header-content {
@@ -32,6 +45,8 @@ body {
   width: 90%;
   max-width: 960px;
   margin: 0 auto;
+  position: relative;
+  z-index: 1;
 }
 
 .logo {
