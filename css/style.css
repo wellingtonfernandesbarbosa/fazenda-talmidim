@@ -33,7 +33,7 @@ body {
   right: 0;
   bottom: 0;
   background: rgba(255, 255, 255, 0.03);
-  backdrop-filter: blur(1px);
+  /* backdrop-filter: blur(1px); */
   pointer-events: none;
 }
 
@@ -56,7 +56,7 @@ body {
 
 .header-content h1 {
   font-family: 'Libre Baskerville', serif;
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: #fff;
   text-align: center;
   background: rgba(90, 62, 43, 0.5);
