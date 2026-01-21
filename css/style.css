@@ -1,0 +1,115 @@
+:root {
+  --marrom: #5a3e2b;
+  --marrom-claro: #7a543a;
+  --texto: #333;
+  --bg: #f7f4f2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: var(--bg);
+  color: var(--texto);
+}
+
+.header {
+  width: 100%;
+  background: url("../assets/img/header.jpg") center/cover no-repeat;
+  padding: 5rem 0;
+  color: #fff;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 150px;
+  flex-shrink: 0;
+}
+
+.header-content h1 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 2.5rem;
+
+  /* truques de leveza */
+  letter-spacing: 2px;
+  transform: scaleX(0.95);
+
+  background: rgba(0, 0, 0, 0.35);
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  margin: 0 auto;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1.5rem 1rem;
+
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.card {
+  background: #fff;
+  padding: 1.2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.card h2 {
+  color: var(--marrom);
+  font-size: 1.2rem;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.links a {
+  text-decoration: none;
+  text-align: center;
+  padding: 0.8rem;
+  border-radius: 8px;
+  background: var(--marrom);
+  color: #fff;
+  font-weight: bold;
+  transition: background 0.2s ease;
+}
+
+.links a:hover {
+  background: var(--marrom-claro);
+}
+
+.footer {
+  background-color: var(--marrom);
+}
+
+.footer-content {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.85rem;
+  color: #fff;
+
+  max-width: 960px;
+  margin: 0 auto;
+}
