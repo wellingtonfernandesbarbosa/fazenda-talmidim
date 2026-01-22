@@ -85,7 +85,7 @@
         Faça suas contribuições via PIX para apoiar nosso trabalho.
       </p>
       <div class="links">
-        <a href="#" id="pixBtn">Doar via PIX</a>
+        <a href="#" id="pixBtn" data-pix="00020126360014BR.GOV.BCB.PIX0114444066860001905204000053039865802BR5923Fazenda Talmidim Shalom6013Jaboticatubas62240520DOACAOFAZENDATALMIDI63043C7B">Doar via PIX</a>
         <a href="https://www.vakinha.com.br/vaquinha/abrigo-de-restauracao-fazenda-talmidim-shalom" target="_blank">Vakinha</a>
       </div>
         <strong>Outras Formas de Apoio</strong>
@@ -93,6 +93,18 @@
         livros e tudo aquilo que, de alguma forma, possa trazer conforto às vidas que serão acolhidas pelo projeto.
       </p>
       </p>
+
+      <!-- Modal PIX -->
+      <div id="pixModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h3>Doe via PIX</h3>
+          <img src="assets/img/qr-code.png" alt="QR Code PIX" class="qr-code" />
+          <p id="pixCode" class="pix-code">00020126360014BR.GOV.BCB.PIX0114444066860001905204000053039865802BR5923Fazenda Talmidim Shalom6013Jaboticatubas62240520DOACAOFAZENDATALMIDI63043C7B</p>
+          <button id="copiarBtn" class="copy-btn">Copiar Código PIX</button>
+          <div id="feedback" class="feedback"></div>
+        </div>
+      </div>
     </section>
   </main>
 
