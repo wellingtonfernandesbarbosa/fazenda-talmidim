@@ -151,6 +151,10 @@ iframe {
   margin: 0 auto;
 }
 
+.doacao strong {
+  text-align: center;
+}
+
 @media (min-width: 690px) {
   iframe {
     height: 450px;
