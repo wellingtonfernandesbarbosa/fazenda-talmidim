@@ -125,6 +125,20 @@ body {
   background: var(--marrom-claro);
 }
 
+iframe {
+  width: 95%;
+  height: 300px;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (min-width: 690px) {
+  iframe {
+    height: 450px;
+  }
+}
+
 .footer {
   background-color: var(--marrom);
 }
