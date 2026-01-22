@@ -173,6 +173,12 @@ iframe {
   animation: fadeIn 0.3s ease;
 }
 
+.modal[style*="display: block"] {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -185,7 +191,6 @@ iframe {
 
 .modal-content {
   background-color: #fefefb;
-  margin: 5% auto;
   padding: 2rem;
   border-radius: 10px;
   width: 90%;
@@ -231,7 +236,8 @@ iframe {
   max-width: 250px;
   margin: 1rem auto;
   display: block;
-  border-radius: 8px;box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .pix-code {
